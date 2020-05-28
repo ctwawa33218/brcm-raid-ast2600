@@ -1,3 +1,9 @@
 [submodule "packages/common"]
 	path = packages/common
 	url = ../common
+[submodule "packages/raid"]
+	path = packages/raid
+	url = ../../../base/raid
+[submodule "packages/smbus"]
+	path = packages/smbus
+	url = ../../../base/smbus
