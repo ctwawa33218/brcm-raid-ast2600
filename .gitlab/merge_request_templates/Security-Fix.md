@@ -4,6 +4,9 @@
 ## Summary of work done
 (Add Security issue resolution detail/ Testing Steps & Results)
 
+## Related MR
+(Please include the related MR for this Security fix if any)
+
 /label ~Security
 (Do not remove this security label)
 

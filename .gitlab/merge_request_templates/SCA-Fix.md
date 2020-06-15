@@ -4,6 +4,9 @@
 ## Summary of work done
 (Add SCA issue resolution detail/ Testing Steps & Results)
 
+## Related MR
+(Please include the related MR for this SCA fix if any)
+
 /label ~sca-fix
 (Do not remove this security label)
 

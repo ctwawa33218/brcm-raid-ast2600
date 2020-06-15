@@ -4,6 +4,9 @@
 ## Summary of work done
 (Add the summary of issue fixes/ Root cause/ Resolution/ Testing Steps & Results)
 
+## Related MR
+(Please include the related MR for this bug fix if any)
+
 /label ~defect
 (Do not remove this defect label)
 

@@ -8,6 +8,9 @@
 - [ ] Unit Test Document - (Paste the link to Unit Test Document)
 - [ ] Screenshot/Videos - ( Attach screenshot or video of the behavior)
 
+## Related MR
+(Please include the related MR for this feature if any)
+
 /label ~feature
 (Do not remove this feature label)
 
