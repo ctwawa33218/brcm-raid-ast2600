@@ -5,33 +5,33 @@
 Get and install Git SPX Plugin (Preferrably link based building v1.0-beta7)
 Get and install MDS-13.0
 
-### v13-update-0.02 (06/19/2020) (It is alined with v13-update-0.02 release)
+### v13-update-0.02 (08/04/2020)
 
 - Steps to apply featurepack
 
 **US Location**
 ```
-git clone --recurse-submodules https://git.ami.com/core/lts/spx-13/evb/ast2600evb.git --branch v13-update-0.02
+git clone --recurse-submodules https://git.ami.com/core/lts/spx-13/evb/ast2600evb.git --branch v13-update-0.03
 cd ast2600evb/packages/
-git clone --recurse-submodules https://git.ami.com/core/lts/spx-13/ext-packs/featurepack/brcm-raid/brcm-raid-ast2600.git --branch v13-update-0.02-BRCM
+git clone --recurse-submodules https://git.ami.com/core/lts/spx-13/ext-packs/featurepack/brcm-raid/brcm-raid-ast2600.git --branch v13-update-0.03
 ```
 
 **TW Location**
 ```
-git clone --recurse-submodules https://git.ami.com.tw/core/lts/spx-13/evb/ast2600evb.git --branch v13-update-0.02
+git clone --recurse-submodules https://git.ami.com.tw/core/lts/spx-13/evb/ast2600evb.git --branch v13-update-0.03
 cd ast2600evb/packages/
-git clone --recurse-submodules https://git.ami.com.tw/core/lts/spx-13/ext-packs/featurepack/brcm-raid/brcm-raid-ast2600.git --branch v13-update-0.02-BRCM
+git clone --recurse-submodules https://git.ami.com.tw/core/lts/spx-13/ext-packs/featurepack/brcm-raid/brcm-raid-ast2600.git --branch v13-update-0.03
 ```
 
 **CN Location**
 ```
-git clone --recurse-submodules https://git.ami.com.cn/core/lts/spx-13/evb/ast2600evb.git --branch v13-update-0.02
+git clone --recurse-submodules https://git.ami.com.cn/core/lts/spx-13/evb/ast2600evb.git --branch v13-update-0.03
 cd ast2600evb/packages/
-git clone --recurse-submodules https://git.ami.com.cn/core/lts/spx-13/ext-packs/featurepack/brcm-raid/brcm-raid-ast2600.git --branch v13-update-0.02-BRCM
+git clone --recurse-submodules https://git.ami.com.cn/core/lts/spx-13/ext-packs/featurepack/brcm-raid/brcm-raid-ast2600.git --branch v13-update-0.03
 ```
 
 *  [Link for fixed issues and change set]
-(https://git.ami.com/groups/core/lts/spx-13/ext-packs/featurepack/brcm-raid/-/merge_requests?scope=all&utf8=%E2%9C%93&state=merged&milestone_title=v13-update-0.02-BRCM)
+(https://git.ami.com/groups/core/lts/spx-13/ext-packs/featurepack/brcm-raid/-/merge_requests?scope=all&utf8=%E2%9C%93&state=merged&milestone_title=v13-update-0.03)
 
 *  Please refer link https://git.ami.com/core/lts/spx-13/ext-packs/featurepack/brcm-raid/brcm-raid-ast2600/-/wikis/ChangeLog for previous releases history
 
