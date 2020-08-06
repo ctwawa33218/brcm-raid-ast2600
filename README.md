@@ -5,7 +5,7 @@
 Get and install Git SPX Plugin (Preferrably link based building v1.0-beta7)
 Get and install MDS-13.0
 
-### v13-update-0.02 (08/04/2020)
+### v13-update-0.03 (08/04/2020)
 
 - Steps to apply featurepack
 
