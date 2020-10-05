@@ -3,7 +3,7 @@
 ### Requirements
 
 - Get and install **Git SPX Plugin** (Preferrably link based building v1.0-beta8)
-- Get and install MDS-13
+- Get and install MDS-13.0.1
 
 ### Build Process
 - Clone the project including submodules
@@ -44,7 +44,7 @@
     cd ast2600evb
     git spx buildsrc configs/ast2600evb.PRJ packages/ workspace_ast2600evb
     ```
-    - With 13 MDS
+    - With 13.0.1 MDS
         - Below step converts packages to ".spx" format
             ```
             git spx convert packages/ spx-packages/
