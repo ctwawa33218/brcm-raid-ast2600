@@ -40,10 +40,11 @@
     ```
 - Steps for compilation
     - With Git SPX Plugin 
-    ```
-    cd ast2600evb
-    git spx buildsrc configs/ast2600evb.PRJ packages/ workspace_ast2600evb
-    ```
+        - Update and save PRJ
+        ```    
+        cd ast2600evb    
+        git spx buildsrc configs/LTS13-AST2600EVB-FULL1.PRJ packages/ workspace_ast2600evb
+        ```
     - With 13.0.1 MDS
         - Below step converts packages to ".spx" format
             ```
