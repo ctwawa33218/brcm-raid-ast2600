@@ -1,0 +1,27 @@
+variables:
+  GIT_STRATEGY: none
+
+stages:
+  - Build
+
+LTS13-AST2600EVB-FULL1:
+  stage: Build
+  image:
+    name: amispxlts13:v0.1
+  tags:
+    - "LTS13-Build"
+  retry:
+    max: 2
+    when: runner_system_failure
+  script:
+    - export BranchName="LTS-v13"
+    - git clone -b ${BranchName} https://${GUSER}:${GPASS}@git.ami.com/core/lts/spx-13/configs/evb/ast2600evb /tmp/ast2600evb
+    - source /tmp/ast2600evb/script/Build_LTS13-AST2600EVB-FULL1.sh
+  artifacts:
+    paths:
+    - ${CI_JOB_STAGE}_Output/${CI_JOB_NAME}
+    expire_in: 2 weeks
+  only:
+  - branches
+  except:
+  - master
