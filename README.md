@@ -2,7 +2,7 @@
 
 ### Requirements
 
-- Get and install **Git SPX Plugin** (Preferrably link based building v1.0-beta8)
+- Get and install **Git SPX Plugin** (Preferrably link based building v1.0-beta8.2)
 - Get and install MDS-13.0.1
 
 ### Build Process
