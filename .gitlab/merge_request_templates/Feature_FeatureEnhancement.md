@@ -6,16 +6,20 @@
 
 - [ ] Design Document - (Paste the link to Design Document)
 - [ ] Unit Test Document - (Paste the link to Unit Test Document)
+- [ ] Release Document - (Paste the link to Unit Test Document)
 - [ ] Screenshot/Videos - ( Attach screenshot or video of the behavior)
+
+## Gitlab test image link
+(Please provide the Gitlab Test image link that used for verification)
+
+## QA submission table link
+(Please QA SubMission table Link)
 
 ## Related MR
 (Please include the related MR for this feature if any)
 
 /label ~feature
 (Do not remove this feature label)
-
-/label ~mr-low 
-(Change label based on feature priority. Equivalent to '--urgency' field of svnspxex. Use preview tab to see how it is rendered)
 
 ## List additional approvers if needed
 ```@username1, @username2 ....``` (Remove ``` when adding usernames)
