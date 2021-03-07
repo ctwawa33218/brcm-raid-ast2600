@@ -4,14 +4,14 @@
 ## Summary of work done
 (Add Security issue resolution detail/ Testing Steps & Results)
 
+## Gitlab test image link
+(Please provide the Gitlab Test image link that used for verification)
+
 ## Related MR
 (Please include the related MR for this Security fix if any)
 
 /label ~Security
 (Do not remove this security label)
-
-/label ~mr-security 
-(Change label based on feature priority. Equivalent to '--urgency' field of svnspxex. Use preview tab to see how it is rendered)
 
 ## List additional approvers if needed
 ```@username1, @username2 ....``` (Remove ``` when adding usernames)
