@@ -1,11 +1,11 @@
 # LTS-v13 BRCM-RAID-AST2600 (9/30/2020)
 
 ### Important Information
-- After Stable release features migrated into the active branch ("LTS-v13"), the migration tag "LTS-v13_XX.Y_Feature_Migration" is created in each repository. _**The tag is just providing the information "when the milestone New feature/feature enhancement migration Finished" Only.**_ The latest Active branch always provides the latest Bug fixed and Feature enhancement. Please take the latest Active Branch for the project development.  
+- After Stable release features migrated into the active branch ("LTS-v13"), the migration tag "LTS-v13_XX.Y_Feature_Migration" is created in each repository. _**The tag is just providing the information "when the milestone New feature/feature enhancement migration Finished" Only.**_ The latest Active branch always provides the latest Bug fixed and Feature enhancement. **Please take the latest Active Branch for the project development.**
 
 ### Requirements
 
-- Get and install the latest released **Git SPX Plugin** version
+- Get and install the released **Git SPX Plugin v1.0-beta8.5** version
 - Get and install the latest released MDS version
 
 ### Build Process
@@ -60,7 +60,7 @@
 
 
 ### Issues & Change Log
-- [Link for list of fixed issues and its changeset after LTS-v13 release]( https://git.ami.com/core/lts/spx-13/ext-packs/featurepack/brcm-raid/brcm-raid-ast2600/-/merge_requests?scope=all&utf8=%E2%9C%93&state=all&target_branch=lts-v13 )
+- [Link for list of fixed issues and its changeset after LTS-v13 release]( https://git.ami.com/core/lts/spx-13/ext-packs/featurepack/brcm-raid/brcm-raid-ast2600/-/merge_requests?scope=all&utf8=%E2%9C%93&state=all&target_branch=LTS-v13 )
 
 
 
