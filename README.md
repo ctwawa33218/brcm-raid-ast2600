@@ -14,39 +14,50 @@
     `<US Location>` :
     ```
     git clone --recurse-submodules https://git.ami.com/core/lts/spx-13/evb/ast2600evb.git --branch LTS-v13
-    cd ast2600evb
-    git submodule foreach git checkout LTS-v13
-    cd packages 
+    cd ast2600evb/packages
     git clone --recurse-submodules https://git.ami.com/core/lts/spx-13/ext-packs/featurepack/brcm-raid/brcm-raid-ast2600.git --branch LTS-v13
     cd brcm-raid-ast2600
     git submodule foreach git checkout LTS-v13
+    git checkout LTS-v13
+    git pull origin LTS-v13
+    cd ../..
+    git submodule foreach git checkout LTS-v13
+    git checkout LTS-v13
+    git pull origin LTS-v13
     ```
     `<TW Location>` :
     ```
     git clone --recurse-submodules https://git.ami.com.tw/core/lts/spx-13/evb/ast2600evb.git --branch LTS-v13
-    cd ast2600evb
-    git submodule foreach git checkout LTS-v13
-    cd packages 
+    cd ast2600evb/packages
     git clone --recurse-submodules https://git.ami.com.tw/core/lts/spx-13/ext-packs/featurepack/brcm-raid/brcm-raid-ast2600.git --branch LTS-v13
     cd brcm-raid-ast2600
     git submodule foreach git checkout LTS-v13
+    git checkout LTS-v13
+    git pull origin LTS-v13
+    cd ../..
+    git submodule foreach git checkout LTS-v13
+    git checkout LTS-v13
+    git pull origin LTS-v13
     ```
     `<CN Location>` :
     ```
     git clone --recurse-submodules https://git.ami.com.cn/core/lts/spx-13/evb/ast2600evb.git --branch LTS-v13
-    cd ast2600evb
-    git submodule foreach git checkout LTS-v13
-    cd packages 
+    cd ast2600evb/packages
     git clone --recurse-submodules https://git.ami.com.cn/core/lts/spx-13/ext-packs/featurepack/brcm-raid/brcm-raid-ast2600.git --branch LTS-v13
     cd brcm-raid-ast2600
     git submodule foreach git checkout LTS-v13
+    git checkout LTS-v13
+    git pull origin LTS-v13
+    cd ../..
+    git submodule foreach git checkout LTS-v13
+    git checkout LTS-v13
+    git pull origin LTS-v13
     ```
 - Steps for compilation
     - With Git SPX Plugin 
-        - Update and save PRJ
         ```    
         cd ast2600evb    
-        git spx buildsrc configs/LTS13-AST2600EVB-FULL1.PRJ packages/ workspace_ast2600evb
+        git spx buildsrc configs/ast2600evb_A1.PRJ packages/ workspace_ast2600evb
         ```
     - With MDS (latest released version)
         - Below step converts packages to ".spx" format
