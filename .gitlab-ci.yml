@@ -12,11 +12,11 @@ LTS-v13_AST2600EVB_FULL1:
     - "LTS-Build"
   retry:
     max: 2
-  when:
-    - runner_system_failure
-    - job_execution_timeout
-    - script_failure
-    - scheduler_failure
+    when:
+      - runner_system_failure
+      - job_execution_timeout
+      - script_failure
+      - scheduler_failure
   script:
     - export CIOutput=$(pwd)/${CI_JOB_STAGE}_Output/${CI_JOB_NAME}    
     - git clone https://git.ami.com/core/rd/active-tree/LTS /tmp/LTS        
