@@ -7,3 +7,7 @@
 [submodule "packages/smbus"]
 	path = packages/smbus
 	url = ../../../base/smbus
+[submodule "packages/brcm-raid-redfish"]
+	path = packages/brcm-raid-redfish
+	url = ../brcm-raid-redfish/
+	branch = LTS-v13
