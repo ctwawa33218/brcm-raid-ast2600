@@ -15,7 +15,6 @@ LTS-v13_AST2600EVB_FULL1:
     when:
       - runner_system_failure
       - job_execution_timeout
-      - script_failure
       - scheduler_failure
   script:
     - export CIOutput=$(pwd)/${CI_JOB_STAGE}_Output/${CI_JOB_NAME}    
