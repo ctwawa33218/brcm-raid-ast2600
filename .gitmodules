@@ -11,3 +11,11 @@
 	path = packages/brcm-raid-redfish
 	url = ../brcm-raid-redfish/
 	branch = LTS-v13
+[submodule "packages/mctp"]
+	path = packages/mctp
+	url = ../../../base/mctp
+	branch = LTS-v13
+[submodule "packages/mctppcie"]
+	path = packages/mctppcie
+	url = ../../../base/mctppcie
+	branch = LTS-v13
