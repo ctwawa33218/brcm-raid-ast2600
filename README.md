@@ -1,11 +1,11 @@
 # LTS-v13 BRCM-RAID-AST2600 (9/30/2020)
 
 ### Important Information
-- After Stable release features migrated into the active branch ("LTS-v13"), the migration tag "LTS-v13_XX.Y_Feature_Migration" & "LTS-v13_XX.Y" is created in each repository. _**The tag is just providing the information "when the milestone New feature/feature enhancement migration Finished" Only.**_ The latest Active branch always provides the latest Bug fixed and Feature enhancement. **Please take the latest Active Branch for the project development.**
+- After Stable release features migrated into the active branch ("LTS-v13"), the tag "v13-update-X.XX-RC"  is created in each repository. The tag is just providing the information "when the milestone New feature/feature enhancement migration Finished" Only.**_ The latest Active branch always provides the latest Bug fixed and Feature enhancement. Please take the latest Active Branch for the project development.
 
 ### Requirements
 
-- Get and install the released **Git SPX Plugin v1.0-beta9.2.1** version
+- Get and install the released **Git SPX Plugin v1.0-beta9.3** version
 - Get and install the latest released MDS version
 
 ### Build Process
