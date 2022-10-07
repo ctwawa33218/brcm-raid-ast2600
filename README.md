@@ -5,7 +5,7 @@
 
 ### Requirements
 
-- Get and install the released **Git SPX Plugin v1.0-beta9.3** version
+- Get and install the released **Git SPX Plugin v1.0-beta9.3.1** version
 - Get and install the latest released MDS version
 
 ### Build Process
